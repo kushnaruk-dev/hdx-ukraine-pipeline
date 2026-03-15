@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+
+# Environment variables — contains passwords, never commit
+.env
+
+# Raw data files — too large and sensitive for GitHub
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit secrets — contains DB credentials
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
